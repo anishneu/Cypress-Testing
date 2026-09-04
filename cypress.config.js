@@ -10,7 +10,7 @@ export default defineConfig({
 
     testIsolation: false,
 
-    screenshotOnRunFailure: true,
+    screenshotOnRunFailure: false,
 
     video: false,
 
