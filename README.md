@@ -1,10 +1,10 @@
 # Cypress Testing — Talon Vault
 
-End-to-end UI test suite for [Talon Vault](https://github.com/anishneu/ams), covering authentication, form building, navigation, and the document approval workflow.
+End-to-end UI test suite for [Talon Vault(EAMS)](https://github.com/anishneu/Enterprise-Asset-Management-System-PLM), covering authentication, form building, navigation, and the document approval workflow.
 
 This repo exercises Talon Vault's React frontend the way a real user would — logging in, filling out forms, driving the drag-and-drop form builder, and pushing a document all the way through its Draft → Review → Approved lifecycle. Rather than one-off scripts, it's organized as reusable custom commands layered under focused spec files, so a multi-step flow like "build a form, create a document, submit it, approve it" reads as a handful of readable commands instead of a wall of raw Cypress calls.
 
-**Stack:** Cypress 12 · TypeScript · Mocha/Chai (via Cypress)
+**Stack:** Cypress 12.6.0 · TypeScript · Mocha/Chai (via Cypress)
 
 **Author:** Anish Kuila
 
