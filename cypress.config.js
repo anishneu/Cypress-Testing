@@ -6,7 +6,7 @@ export default defineConfig({
 
     specPattern: "cypress/e2e/**/*.spec.ts",
 
-    supportFile: "cypress/support/e2e.js",
+    supportFile: "cypress/support/e2e.ts",
 
     testIsolation: false,
 
